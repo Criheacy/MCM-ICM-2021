@@ -1,0 +1,1 @@
+wget -e robots=off -m -np -R .html,.tmp -nH --cut-dirs=4 "https://nrt3.modaps.eosdis.nasa.gov/api/v2/content/archives/FIRMS/c6/Australia_NewZealand" --header "Authorization: Bearer Y3JpaGVhY3k6TVRBMU1qazVPVEUwTVVCeGNTNWpiMjA9OjE2MTI1NDAxNDM6MDYxNGFjYmE0YzBmNTBiMDAxODlhYzNiMzE2ZTA5MjQ3ODA2MzdhMg" -P F:\Temp\Files\

@@ -2,7 +2,7 @@ import sys
 import math
 from PIL import Image
 
-smallImage = Image.open('source.png')
+smallImage = Image.open('small.png')
 sourceImage = Image.open('source.png')
 
 def Grey2Value(colorGrey):

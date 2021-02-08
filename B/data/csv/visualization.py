@@ -35,7 +35,7 @@ for date in range(1, 62):
 	dataFile = open(str(date) + '.csv')
 
 	# redraw screen image for each data file
-	screen.blit(pygameImage, (0, 0))
+#	screen.blit(pygameImage, (0, 0))
 	pygame.display.update()
 
 	line = dataFile.readline()	# read csv title
@@ -43,7 +43,7 @@ for date in range(1, 62):
 	while line:
 		latitude, longitude, brightness, scan, track, acq_date, acq_time, satellite, confidence, version, bright_t31, frp, daynight = line.split(',')
 		
-		print(longitude, latitude, frp, confidence)
+#		print(longitude, latitude, frp, confidence)
 		screenX, screenY = PositionToScreen(float(longitude), float(latitude))
 
 		radius = float(frp)
